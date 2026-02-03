@@ -1,0 +1,20 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2026-02-03T10:00:00.000Z",
+      "eventName": "ObjectCreated:Put",
+      "s3": {
+        "bucket": {
+          "name": "aws-sour-78"
+        },
+        "object": {
+          "key": "image_data/download.jpeg",
+          "size": 123456
+        }
+      }
+    }
+  ]
+}
